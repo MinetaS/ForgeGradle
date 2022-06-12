@@ -5,7 +5,7 @@ plugins {
     id "com.gradle.plugin-publish" version "0.14.0"
 }
 
-version = '2.2.0'
+version = '2.5.0'
 group = 'net.minecraftforge.gradle'
 archivesBaseName = 'ForgeGradle'
 
@@ -222,12 +222,12 @@ publishing {
             from components.java
             pom {
                 name = 'ForgeGradle'
-                url = 'https://github.com/asbyth/ForgeGradle'
+                url = 'https://github.com/MinetaS/ForgeGradle'
 
                 developers {
                     developer {
                         id = 'forgegradle'
-                        name = 'asbyth'
+                        name = 'MinetaS'
                     }
                 }
             }
