@@ -1,0 +1,17 @@
+# text stuff
+* text=auto
+* text eol=lf
+*.bat text eol=crlf
+*.md text
+*.properties text
+
+# binary
+*.dat binary
+*.bin binary
+*.png binary
+*.exe binary
+*.dll binary
+*.zip binary
+*.jar binary
+*.7z binary
+*.db binary
